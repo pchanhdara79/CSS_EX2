@@ -16,10 +16,10 @@ body {
 
 .page-name {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  border-bottom: 3px solid #23CED9;
-  padding-bottom: 10px;
+  border-bottom: 4px solid #23CED9;
+  padding-bottom: 15px;
   margin-bottom: 40px;
   color: #0e2a38;
 }

@@ -1,7 +1,7 @@
 html {
   font-family: "Garamond", serif;
   background-color: #091D26;
-  color: #fffef8;
+  color: #091D26;
   line-height: 1.6;
 }
 
@@ -10,7 +10,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   border: 4px solid #23CED9;
-  background-color: #0e2a38;
+  background-color: #fff8e7; /* creme background for entire menu */
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
@@ -21,31 +21,32 @@ body {
   border-bottom: 3px solid #23CED9;
   padding-bottom: 10px;
   margin-bottom: 40px;
-  color: #F9D779;
+  color: #0e2a38;
 }
 
 .course {
   list-style-type: none;
   margin-bottom: 50px;
   padding: 20px;
-  border: 2px solid #097C87;
+  border: 2px solid #d68f95;
   border-radius: 8px;
-  background-color: #fff8e7; 
-  color: #091D26; 
+  background-color: #f7bfc2; /* pastel pink for meal sections */
+  color: #091D26; /* dark navy text for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .course-name {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #FCA47C;
+  color: #0e2a38;
   margin-bottom: 5px;
-  border-bottom: 2px solid #A1CCA6;
+  border-bottom: 2px solid #f2a2bd;
   padding-bottom: 5px;
 }
 
 .course-hours {
   font-style: italic;
-  color: #A1CCA6;
+  color: #333;
   margin-bottom: 20px;
 }
 
@@ -57,16 +58,16 @@ body {
 .dish {
   margin-bottom: 25px;
   padding: 15px;
-  border: 1px solid #A1CCA6;
-  border-left: 6px solid #FCA47C;
-  background-color: #13384b;
+  border: 1px solid #d68f95;
+  border-left: 6px solid #f2a2bd;
+  background-color: #fffaf2; /* slightly lighter creme for contrast */
   border-radius: 5px;
 }
 
 .dish-name {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #F9D779;
+  color: #0e2a38;
   margin-bottom: 8px;
 }
 
@@ -74,12 +75,12 @@ body {
   list-style-type: circle;
   margin-left: 25px;
   margin-bottom: 10px;
-  color: #fdfbf7;
+  color: #333;
 }
 
 .separator {
   border: none;
-  border-top: 1px solid #A1CCA6;
+  border-top: 1px solid #d68f95;
   margin: 10px 0;
 }
 
@@ -91,13 +92,13 @@ body {
 
 .tag {
   display: inline-block;
-  background-color: #f7bfc2;
+  background-color: #23CED9;
   color: #091D26;
   padding: 4px 10px;
   margin-right: 8px;
   font-size: 0.85rem;
   font-weight: 500;
-  border: 1px solid #d68f95;
+  border: 1px solid #097C87;
   border-radius: 12px;
   text-transform: lowercase;
 }

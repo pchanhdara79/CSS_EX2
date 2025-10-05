@@ -30,7 +30,8 @@ body {
   padding: 20px;
   border: 2px solid #097C87;
   border-radius: 8px;
-  background-color: #102f3e;
+  background-color: #fff8e7; 
+  color: #091D26; 
 }
 
 .course-name {
@@ -90,13 +91,13 @@ body {
 
 .tag {
   display: inline-block;
-  background-color: #23CED9;
+  background-color: #f7bfc2;
   color: #091D26;
   padding: 4px 10px;
   margin-right: 8px;
   font-size: 0.85rem;
   font-weight: 500;
-  border: 1px solid #097C87;
+  border: 1px solid #d68f95;
   border-radius: 12px;
   text-transform: lowercase;
 }

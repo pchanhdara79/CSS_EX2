@@ -23,6 +23,7 @@ body {
 }
 
 .course {
+  list-style-type: none;
   margin-bottom: 50px;
   padding: 20px;
   border: 2px solid #ddd;

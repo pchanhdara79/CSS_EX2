@@ -10,7 +10,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   border: 4px solid #23CED9;
-  background-color: #fff8e7; /* creme background for entire menu */
+  background-color: #fff8e7;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
 }
 
@@ -30,8 +30,8 @@ body {
   padding: 20px;
   border: 2px solid #d68f95;
   border-radius: 8px;
-  background-color: #f7bfc2; /* pastel pink for meal sections */
-  color: #091D26; /* dark navy text for contrast */
+  background-color: #f7bfc2; 
+  color: #091D26;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 

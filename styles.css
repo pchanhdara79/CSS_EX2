@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 20px;
   background-color: #091D26;
-  color: #091D26;
+  color: #001f4d;
 }
 
 .page-name {
@@ -15,6 +15,7 @@ body {
   font-size: 56px;
   font-weight: 900;
   margin-bottom: 50px;
+  color: #fff8e7;
 }
 
 .course {
@@ -30,6 +31,7 @@ body {
   margin-bottom: 5px;
   border-bottom: 3px solid #f2a2bd;
   padding-bottom: 5px;
+  color: #fff8e7;
 }
 
 .course-hours {
@@ -81,5 +83,5 @@ body {
   border: 2px solid #097C87;
   border-radius: 4px;
   background-color: #fff8e7;
-  color: #091D26;
+  color: #001f4d;
 }

@@ -1,42 +1,32 @@
 html {
   font-family: "Garamond", serif;
-  background-color: #091D26;
-  color: #091D26;
   line-height: 1.6;
 }
 
 body {
-  max-width: 900px;
-  margin: 0px auto;
+  margin: 0;
   padding: 20px;
-  border: 4px solid #23CED9;
   background-color: #fff8e7;
+  color: #091D26;
 }
 
 .page-name {
   text-align: center;
   font-size: 56px;
   font-weight: 900;
-  border-bottom: 6px solid #23CED9;
-  padding-bottom: 15px;
   margin-bottom: 50px;
-  color: #0e2a38;
 }
 
 .course {
-  list-style-type: none;
   margin-bottom: 50px;
   padding: 20px;
   border: 2px solid #d68f95;
-  border-radius: 8px;
   background-color: #f7bfc2;
-  color: #091D26;
 }
 
 .course-name {
   font-size: 32px;
   font-weight: bold;
-  color: #0e2a38;
   margin-bottom: 5px;
   border-bottom: 2px solid #f2a2bd;
   padding-bottom: 5px;
@@ -44,14 +34,11 @@ body {
 
 .course-hours {
   font-style: italic;
-  color: #333;
-  margin-bottom: 20px;
   font-size: 14px;
-  letter-spacing: -1px;
+  margin-bottom: 20px;
 }
 
 .course-dishes {
-  list-style-type: none;
   padding-left: 0;
 }
 
@@ -61,13 +48,11 @@ body {
   border: 1px solid #d68f95;
   border-left: 6px solid #f2a2bd;
   background-color: #ffe6e9; 
-  border-radius: 5px;
 }
 
 .dish-name {
   font-size: 20px; 
   font-weight: bold;
-  color: #0e2a38;
   margin-bottom: 8px;
 }
 
@@ -75,8 +60,8 @@ body {
   list-style-type: square;
   list-style-position: inside; 
   margin-bottom: 10px;
-  color: #333;
 }
+
 .separator {
   border: none;
   border-top: 1px solid #d68f95;
@@ -85,9 +70,8 @@ body {
 
 .tags {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 5px;
-  margin-top: 5px;
 }
 
 .tag {
@@ -95,8 +79,5 @@ body {
   padding: 4px 10px;
   font-size: 12px;
   font-weight: 500;
-  color: #091D26;
-  background-color: #23CED9;
   border: 1px solid #097C87;
-  border-radius: 12px;
 }

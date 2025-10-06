@@ -20,7 +20,7 @@ body {
 .course {
   margin-bottom: 50px;
   padding: 20px;
-  border: 2px solid #d68f95;
+  border: 4px solid #d68f95;
   background-color: #f7bfc2;
 }
 
@@ -28,7 +28,7 @@ body {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 5px;
-  border-bottom: 2px solid #f2a2bd;
+  border-bottom: 3px solid #f2a2bd;
   padding-bottom: 5px;
 }
 
@@ -41,8 +41,8 @@ body {
 .dish {
   margin-bottom: 25px;
   padding: 15px;
-  border: 1px solid #d68f95;
-  border-left: 6px solid #f2a2bd;
+  border: 2px solid #d68f95;
+  border-left: 8px solid #f2a2bd;
   background-color: #ffe6e9;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .separator {
   border: none;
-  border-top: 1px solid #d68f95;
+  border-top: 2px solid #d68f95;
   margin: 10px 0;
 }
 
@@ -78,7 +78,7 @@ body {
   padding: 4px 10px;
   font-size: 12px;
   font-weight: 500;
-  border: 1px solid #097C87;
+  border: 2px solid #097C87;
   border-radius: 4px;
   background-color: #fff8e7;
   color: #091D26;

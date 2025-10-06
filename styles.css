@@ -16,12 +16,13 @@ body {
 
 .page-name {
   text-align: center;
-  font-size: 5rem;
-  font-weight: bold;
-  border-bottom: 5px solid #23CED9;
+  font-size: 56px;
+  font-weight: 900;
+  border-bottom: 6px solid #23CED9;
   padding-bottom: 15px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
   color: #0e2a38;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .course {
@@ -30,13 +31,13 @@ body {
   padding: 20px;
   border: 2px solid #d68f95;
   border-radius: 8px;
-  background-color: #f7bfc2; 
+  background-color: #f7bfc2;
   color: #091D26;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .course-name {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
   color: #0e2a38;
   margin-bottom: 5px;
@@ -48,6 +49,8 @@ body {
   font-style: italic;
   color: #333;
   margin-bottom: 20px;
+  font-size: 14px;
+  letter-spacing: -1px;
 }
 
 .course-dishes {
@@ -60,19 +63,19 @@ body {
   padding: 15px;
   border: 1px solid #d68f95;
   border-left: 6px solid #f2a2bd;
-  background-color: #fffaf2;
+  background-color: #ffe6e9; 
   border-radius: 5px;
 }
 
 .dish-name {
-  font-size: 1.3rem;
+  font-size: 20px; 
   font-weight: bold;
   color: #0e2a38;
   margin-bottom: 8px;
 }
 
 .ingredients {
-  list-style-type: circle;
+  list-style-type: square;
   margin-left: 25px;
   margin-bottom: 10px;
   color: #333;
@@ -85,19 +88,13 @@ body {
 }
 
 .tags {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.tag {
   display: inline-block;
-  background-color: #23CED9;
-  color: #091D26;
   padding: 4px 10px;
-  margin-right: 8px;
-  font-size: 0.85rem;
+  margin: 4px;
+  font-size: 12px;
   font-weight: 500;
+  color: #091D26;
+  background-color: #23CED9;
   border: 1px solid #097C87;
   border-radius: 12px;
   text-transform: lowercase;
